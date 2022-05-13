@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 600px;
+}
+
+.container-row {
+    display: flex;
+}
+
+.row-item {
+    flex: 1;
+    font-weight: bold;
+    width: 10em;
+    height: 10em;
+    margin: 0.5em;
+    border-radius: 100%;
+    border: none;
+}
+
+.number {
+    background-color: #ddd;
+}
+
+.operation {
+    background-color: rgb(245, 145, 52);
+}
+    
+.equal {
+    background-color: rgb(146, 144, 144);
+}
+
+.clear {
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
